@@ -54,7 +54,7 @@ public class MainPanel extends Panel implements Runnable{
     private void newPaddle() {
 
         Color color = getColor(255);
-        Color color2 = getColor(255);
+        Color color2 = getColor(127);
         if(color2 == color){
             color2 = getColor(255);
         }
